@@ -1,0 +1,143 @@
+.advert-main img{position: fixed; top: 50%; left: 50%; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%);transform: translate(-50%,-50%);}
+/*公用样式 */
+body{background-color: rgb(245,246,248);}
+body>div{ max-width: 640px; margin-left: auto; margin-right: auto;}
+.sp-right{ float: right;}
+.sp-green{color: #2fb583;}
+.sp-red{ color: red;}
+.body-bg{background-color: rgb(63,83,100); }
+.body-grey{ background-color: rgb(245,246,248);}
+.list-line li{ border-bottom: solid 1px #DEDFE0;}    /* 列表样式 */
+.list-line li:last-child{border-bottom: none 0px;}
+.sp-grey{color:#8C8E91;}
+.modal-body{ text-align: center; font-size: 16px;}      /*弹出框样式*/
+.modal-dialog{ top: 30%; width: 280px; margin-left: auto; margin-right: auto;}
+.modal-header{ border-bottom: 0px;}
+.modal-body img{ width: 30px; height: 30px; margin-right: 10px;}
+.modal-body .btn-ok{ background-color: rgb(11,211,138); color: #ffffff; width: 100%; display: block; margin: 30px auto; padding: 12px;}
+/* 登陆页面 */
+.login-div{ padding: 30px 30px; background-color: rgb(63,83,100);}
+.login-div .logo-img{ text-align: center;}
+.login-div .logo-img img{ width:257px; height: 61px; margin-bottom: 12vh; margin-top: 8vh;}
+.login-div .logo-img01{ width: 20px; height: 25px;}
+.login-div .input-group-addon{ background-color: rgb(255,255,255); height: 52px; padding-left: 20px; padding-right: 0px;}
+.login-div .form-control{-webkit-appearance: none;height: 54px; -moz-box-shadow: none;-webkit-box-shadow: none; -ms-box-shadow: none;-o-box-shadow: none; box-shadow:none; outline: medium;}
+.login-div .form-control:focus {border-color:rgb(204,204,204); -moz-box-shadow: none;-webkit-box-shadow: none; -ms-box-shadow: none;-o-box-shadow: none; box-shadow:none;outline: 0 none;}
+.login-div .input-group{ margin-bottom: 20px;}
+.login-sp img{ width: 18px; height: 18px; margin-bottom: 5px; margin-right: 5px;}
+.login-sp span{ color: rgb(255,255,255);font-size: 14px;}
+.login-sp a{ float: right; color: rgb(255,255,255); font-size: 14px;}
+.login-btn button{ width: 100%; margin-bottom: 20px; height: 52px; font-size: 16px;}
+.login-btn .btn-login{ background-color: rgb(37,210,140); margin-top: 30px; margin-bottom: 30px; color: rgb(255,255,255);}
+.login-btn .btn-register{background-color: rgb(245,245,245); color: rgb(152,211,205); border: solid 1px rgb(152,211,205);}
+.login-error{ display:none; background-color: rgba(0,0,0,0.6); color: rgb(255,255,255); padding: 10px 20px; text-align: center; z-index: 999; border-radius: 6px; position: fixed; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.login-div input{ border-left: 0px none;  -moz-box-shadow: none;-webkit-box-shadow: none; -ms-box-shadow: none;-o-box-shadow: none; box-shadow:none;outline-style: none;}
+/* 单位信息 */
+.company-info{ padding-left: 12px; background-color: rgb(255,255,255); margin-top: 20px; margin-bottom: 30px; border-bottom: solid 1px rgb(238,238,238); border-top: solid 1px rgb(238,238,238);}
+.company-info .box{padding-right: 12px; line-height: 52px;border-bottom: solid 1px rgb(238,238,238);}
+.box:last-child{ border-bottom: 0px;}
+.company-info .box img{ margin-right: 5px;vertical-align: middle; position: relative; left: 0px;}
+.company-info .box input{ width: 60%;  margin-left: 5px; height: 52px; outline: none 0px; border: none;}
+.company-info .box .ret-input{ width: 45%;}
+.company-info .box .btn{ float: right; margin-top: 8px; background-color: rgb(11,211,138);color: rgb(255,255,255); }
+.company-info .img01{width: 20px; height: 24px;}
+.company-info .img02{ width: 23px; height: 19px;}
+.btn-div{ padding-left: 10px; padding-right: 10px;}
+.btn-div .btn{ background-color: rgb(11,211,138); width: 100%; color: rgb(255,255,255); font-size: 16px; height: 50px;}
+/* 订单支付 页面*/
+.order-main{font-size: 16px;}
+.order-main div{ background-color: #FFFFFF; margin-bottom: 10px;}    /* 类似页面 公用样式*/
+.order-main .order-list li{ padding: 12px;}      /* 类似页面 公用样式*/
+.order-main .order-bz{padding: 12px; margin: 0px; font-size: 16px;}
+.order-main .order-list02 li{ padding-left: 12px; padding-right: 12px; padding-bottom: 10px;font-size: 14px; color: #8C8E91;}
+.order-main .order-type img{ width: 24px; height: 19px; margin-right: 10px; position: relative; top:10px;}
+.order-main .order-type .sp-right{ width: 24px; height: 24px; position: relative; top:-13px;}
+.order-type small{font-size: 12px; color:#8C8E91; position: relative; left: 35px;}
+.order-main .btn-div{ background-color: rgb(245,248,248); margin-top: 30px;}
+/* 确认支付 页面 */
+.order-list li img{ width: 24px; height: 24px; margin-left: 8px; vertical-align: middle;}
+.order-list .form-control{ width: 50%; display: inline-block; margin-left: 10px; border: none;box-shadow: none; outline: none;}
+.order-list .form-control:focus{border:none; border-color: #fff; box-shadow: none; outline: none;}
+/*  成员管理 页面*/
+.mem-list{ margin-top: 20px; }
+.mem-list img.sp-right{ width: 20px; height: 20px; margin-top: 7px;}
+.mem-list .eye-img{ width: 28px; height: 14px; float: right; margin-top: 8px;}
+/*  编辑页面 */
+.mem-list .img-edit{ width: 20px; height: 20px; margin-left: 5px; margin-top: 2px;}
+.mem-edit{ padding: 10px 12px;}
+.img-edit02{ width: 19px; height: 24px; margin-right: 12px;}
+.img-edit03{ width: 8px; height: 14px; margin-left: 6px; cursor: pointer;}
+/* 帐号管理 */
+.account-list li{padding: 10px 12px;}
+.account .btn{ margin-top: 20px;}
+.account-list .img-edit03{ margin-top: 5px;}
+/* 修改邮箱 页面*/
+.email-div{ text-align: center; padding: 20px 12px 0px; font-size: 16px; line-height: 28px;}
+.email-div .sp-grey{ font-size: 14px;}
+.email-div .email-list{ font-size: 14px; text-align: left; margin-top: 15px;}
+.email-div .email-list li{ padding-bottom: 4px;}
+/*修改手机 页面*/
+.md-phone .company-info{ margin-top: 0px;}
+.md-phone ul{ margin-bottom: 0px;}
+.md-phone .img-edit03{width: 8px; height: 14px; margin-left: 6px; cursor: pointer; margin-top: 5px;}
+/*  设置页面 */
+.img-set01{ width: 20px; height: 23px; margin-right: 12px;}
+.img-set02{ width: 21px; height: 18px; margin-right: 12px;}
+.img-set03{ width: 21px; height: 23px; margin-right: 12px;}
+/* 购买帐号 */
+.order-list li img[src*='icon_08']{ width: 16px; height: 8px; margin-left: 8px;}
+.buy-search{ padding: 10px 12px;background-color: rgb(245,246,248) !important; margin-bottom: 0px !important; position: relative;}
+.buy-search img[src*='icon_07']{ width: 16px; height: 16px; position: absolute; left: 24px; top: 20px;}
+.buy-search input{ padding-left: 32px;}
+.buy-list{ padding-left: 12px; padding-right: 12px;}
+.buy-list>div{ float: left; padding: 6px 15px; line-height: 20px; text-align: center; margin-right: 12px; cursor: pointer; border-radius: 4px;}
+.buy-list .active{ background-color: rgb(11,211,138); color: #ffffff;}
+.buy-list .sp-grey{ font-size: 12px;}
+.buy-list .active .sp-grey{color: #ffffff;}
+.warning{ padding-left: 12px; padding-right: 12px; color:#f29200;font-size: 14px; background-color: rgb(245,246,248) !important;}
+.warning img{ width: 18px; height: 18px; margin-right:5px;}
+.effect-div{padding-top: 15px; padding-bottom: 15px; background-color: #fff; overflow: auto; position: absolute; bottom: 0px; left: 0px; right: 0px;}
+.close-img{ overflow: auto; padding-left: 12px; padding-right: 12px;}
+.close-img img{ width: 24px; height: 24px; cursor: pointer; float: right; margin-bottom: 15px; display: block;}
+.buy-effect{ width: 100%; height: 100vh; overflow: auto; background-color: rgba(0,0,0,0.4); position: fixed; top:0px; left: 0px; right: 0px; z-index: 999;}
+.effect-list>div{ border: solid 1px #ddd; border-radius: 4px; margin-bottom: 6px; width: 80px; padding:4px 0px; margin-right: 10px; text-align: center; line-height: 16px;}
+/* 寄件详情 */
+.send-main{ font-size: 16px;}
+.send-main .box{ padding: 10px 12px; background-color: #ffffff; border-bottom: solid 1px #ddd; overflow: auto;}
+.send-name{ overflow: auto; }
+.send-name h4{ margin-top: 6px; margin-bottom: 6px;}
+.send-logo{ width: 52px; height: 52px; float: left; margin-right: 30px;}
+.send-state{background-color: #ffffff; border-bottom: solid 1px #ddd; overflow: auto;}
+.send-state:last-child{ margin-bottom: 12px;}
+.send-state>div{min-height: 60px; padding: 10px 12px;}
+.send-state small{ font-size: 12px;}
+.box-left{ float: left; width: 100px; height: auto; text-align: center;}
+.box-right{ float: left; width: 67%;height: auto; position: relative; padding-left: 12px; border-left: solid 1px #ddd;}
+.state-img01{ width: 20px; height: 20px; position: absolute; left: -10px; top:20px;}
+.send-list{ background-color: #ffffff; margin-top: 10px; margin-bottom: 10px;}
+.send-list h4{ font-size: 18px; margin-top: 5px; margin-bottom: 5px; color: #000000;}
+.send-list li{ padding: 12px; color: #555; border-bottom: solid 1px #ddd; overflow: auto;}
+.send-list .sp-right{ color: #333;}
+/* 所有件 */
+.all-main .warning{ background-color: #fffde6 !important; padding-top: 6px; padding-bottom: 6px; border-bottom: solid 1px rgb(255,219,102);}
+.all-main .warning .btn{ background-color: #f29200; color: #ffffff; padding:4px 6px;}
+.all-list img{ float: left; width: 56px; height: 56px; margin-right: 10px; margin-top: 7px;}
+.all-list .box{ padding: 12px; overflow: auto; background-color: rgb(245,246,247); margin-bottom: 0px;border-bottom: solid 1px #ddd;}
+.all-list .active{ background-color:rgb(233,234,235); border-left: solid 3px rgb(11,211,138);}
+.all-list ul{ float: left; margin-bottom: 0px; width: 77%; overflow: hidden;}
+.all-list li h4{ margin: 0px; display: inline-block;}
+.all-list .sp-green{ font-size: 16px;}
+/*  底部 foot */
+.foot-main{ position: fixed; bottom: 0px; left: 0px; right: 0px;}
+.foot-main ul{ background-color: rgb(64,83,100); margin: 0px;}
+.foot-main li{ width: 24%; margin: 0px; padding-top: 7px; padding-bottom: 3px; color: #fff; text-align: center; cursor: pointer;}
+.foot-main li.active{ border-top: solid 3px rgb(11,211,138);border-left: solid 1px rgb(44,56,68); border-right: solid 1px rgb(44,56,68); }
+.foot-main img[src*='icon_17']{ width: 48px; height: 24px; margin-bottom: 3px;}
+.foot-main img[src*='icon_18']{ width: 48px; height: 24px; margin-bottom: 3px;}
+.foot-main img[src*='icon_19']{ width: 28px; height: 27px; margin-bottom: 3px;}
+.foot-main img[src*='icon_20']{ width: 26px; height: 27px; margin-bottom: 3px;}
+.body-pt{ padding-bottom: 60px;}
+/* 响应式 */
+@media (min-width: 340px) {
+    .company-info .box .ret-input{ width: 50%;}
+}

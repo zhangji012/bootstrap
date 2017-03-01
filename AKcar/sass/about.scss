@@ -1,0 +1,27 @@
+//关于我们界面
+.about-main{ width:1190px;@extend %div-centerMG;
+  .link-bar{ background: #fafafa; font-size: 18px; padding: 10px 20px;}
+  .text-info{ margin-top: 40px; margin-bottom: 120px;color: #606060;padding: 0px 20px;
+    h4{ text-align: center; margin-top: 30px; margin-bottom: 30px; font-size: 18px; color: #242424;}
+    h4.title{ text-align: center; font-size: 24px; color: #606060; margin-bottom: 30px;}
+    strong.red{ font-size: 18px; color: #e33b3b;}
+    p.red,span.red{ font-size: 14px; color:#e33b3b }
+    >ul li{ line-height: 26px; font-size: 14px; color: #606060; }
+  }
+  .about{
+    padding: 0px 20px;
+    >ul li{ line-height: 26px; font-size: 14px; color: #242424; }
+    >p{ margin-top:40px; margin-bottom: 40px;font-size: 14px; color: #242424;}
+    span.red{ font-size: 14px; color:#e33b3b; }
+    >label{ margin-bottom: 30px;}
+    .icon-list{
+      width: 1190px; margin-bottom: 65px;
+    }
+    .icon-box{ width: 272px; margin-right: 20px;@include border-radius(6px);@extend %border; text-align:center;padding: 17px 50px; float: left;
+      >img{ width: 80px;height: 80px; margin-bottom: 20px;}
+      h4{ font-size: 18px; color: #242424; font-weight: bold; margin-bottom: 13px;}
+      p{ font-size: 14px;color: #242424; line-height: 24px;}
+    }
+  }
+}
+.fontSize18{ font-size: 18px;}

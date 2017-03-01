@@ -1,0 +1,102 @@
+@import "include";
+@import "common";
+@import "product";
+@import "allcarType";
+@import "new";
+@import "about";
+.index-main{
+  width: 1190px; @extend %div-centerMG;box-sizing: border-box;
+  .title-name{
+    padding: 25px 0px;
+    h4{ font-size: 24px; color: $headBar; display: inline-block;}
+    a{ font-size: 14px; color: $headBar;}
+  }
+  .list-panelTH{
+    .list-box{
+      margin: 0 -10px;
+      .col-xs-3{ padding: 0px 10px; margin-bottom: 20px;}
+      .box{ @extend %border;
+        @include border-radius(4px);
+        >img{ width: 100%; height: auto; margin-bottom: 15px;}
+        p{ padding: 0px 20px; }
+        p:nth-of-type(1){ font-size: 16px; color: #313131;}
+        p:nth-of-type(2){
+          margin-bottom: 15px;
+          span{ margin-right: 10px;}
+          span:nth-of-type(1){ font-size: 14px; color:$headRed;}
+          span:nth-of-type(2){ font-size: 22px; color:$headRed;}
+          span:nth-of-type(3){ font-size: 14px; color:#8a8a8a; margin-right: 0px;}
+        }
+      }
+    }
+  }
+
+  .list-panelRX{
+    margin-bottom: 20px;
+    .list-box{
+      @extend %border; padding: 20px 72px;
+      .col-xs-3{ text-align: center; padding-top: 10px; padding-bottom: 10px;
+        >img{ max-width: 100%; height: auto; margin-bottom: 5px;}
+        h4{ font-size: 16px; color: #242424; font-weight: normal;}
+      }
+    }
+  }
+
+  .nav-name{
+    @extend %borderB; margin-bottom: 20px;
+    h4{ font-size: 24px; color: $headBar; float: left; margin-right: 35px; padding-top: 13px;}
+    ul{
+      float: left;
+      li{
+        padding: 15px 0px; margin-right: 25px; font-size: 16px; color: $grey; margin-bottom: -1px;
+        &:last-child{ margin-right: 0px;}
+        &.active{ border-bottom: solid 1px $headRed; color: $headRed;}
+      }
+    }
+    >a{padding: 15px 0px; }
+  }
+
+  .img-span{
+    position: relative;
+    a{ position: absolute; bottom: 0px; left: 0px; right: 0px; color: $white; padding: 12px 15px; font-size: 16px; }
+  }
+
+  .list-panelTK{
+    .list-img{
+      >.row{ margin-left: -5px; margin-right: -5px;
+        >[class^="col"]{
+          padding-left: 5px; padding-right: 5px;
+          >div{
+            margin-bottom: 10px;
+          }
+        }
+        img{ width: 100%; height: auto;}
+      }
+    }
+  }
+  .list-panelZX{
+    .list-info{
+      ul{
+        padding: 20px 10px;
+      }
+      li{
+        line-height: 34px; font-size: 14px;color: $headBar;
+        &:before{content: "."}
+      }
+    }
+  }
+
+  .list-panelHB{
+    .list-logo{
+      margin-bottom: 48px;
+      ul{font-size: 0px;}
+      li{
+        margin-right: 70px;padding: 0px;
+        &:last-child{ margin-right: 0px;}
+        img{
+          width: 110px; height: 90px;
+        }
+      }
+    }
+  }
+}
